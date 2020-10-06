@@ -1,0 +1,143 @@
+.task_container{
+    border:1px solid blue ;
+    width: 20%;
+    font-size: 20px;
+}
+
+.add_taskbox_button{
+   
+    background-color: transparent;
+    border: none;
+    color: rgb(28, 67, 126);
+}
+.add_taskbox_button:focus{
+    outline: none;
+}
+.add_taskbox_button_field{
+    bottom: 15px;
+    position: fixed;
+    right: 35px;
+    position: fixed;
+    font-size: 85px;
+}
+
+.navigation_bar{
+    background-color:rgb(28, 67, 126);
+    width: 100%;
+    height: 100px;
+    
+}
+.navigation_bar_content{
+    color: white;
+    margin-left: 100px;
+    margin-top: -5%;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+.new_task_board{
+    width: 18%;
+    border: 1px solid rgb(28, 67, 126);
+    margin: 35px;
+    font-size: 20px;
+    line-height: 40px;
+}
+.taskboard_content{
+    margin-left: 10px;
+    color: rgb(28, 67, 126);
+    /*margin-top: -45px;*/
+}
+
+.taskboard_icon{
+    font-size: 35px;
+    /*color: rgb(28, 67, 126);*/
+}
+.taskboard_Heading{
+    margin-left: 15px;
+}
+
+.newtask_modal_inputfield{
+    border: 0px;
+}
+.newtask_modal_inputfield:focus{
+    outline: none;
+}
+.profileimg{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;  
+}
+.profile_image_filed{
+    text-align: right;
+    margin-right: 4%;
+    margin-top: -4%;
+}
+
+.edit_icon{
+    font-size: 20px;
+    color: rgb(28, 67, 126);
+    float: right;
+    margin-top: -45px;
+    margin-right: 20px;
+}
+.task_details{
+    font-size: 12px;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 15px;
+    /*color:  rgb(28, 67, 126);*/
+}
+.task_details_date{
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    width: 35%;
+    margin-left: 40px;
+    margin-top: 10px;
+    line-height: 15px;
+    color:  rgb(28, 67, 126);
+    background-color: rgb(191, 214, 249) ;
+}
+
+.details_textbox{
+    width: 80%;
+    height: 80px;
+    background-color: rgb(233, 233, 233);
+    border: 0px;
+    text-align: justify;
+}
+
+.details_textbox:focus{
+    outline: none;
+}
+
+.menu_icon{
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+
+.task_title{
+    margin-top: -45px;
+    margin-left: 50px;
+}
+
+.date_textbox{
+    width: 80%;
+}
+.dropDownmenu{
+    margin-left: 92%;
+}
+
+.taskboard_content_completed{
+    color: rgb(31, 111, 31);
+}
+
+.taskboard_icon_completed{
+    color: rgb(31, 111, 31);
+}
+.taskboard_date_completed{
+    color: rgb(31, 111, 31);
+    background-color: rgb(204, 220, 204);
+}
